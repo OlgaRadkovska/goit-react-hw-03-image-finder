@@ -25,7 +25,7 @@ export default class Modal extends Component {
     return createPortal(
       <ModalOverlay>
         <div className="modal">
-          <img src={this.props.pic} alt="" />
+          <img src={this.props.pic} alt="" className="modalImage" />
         </div>
       </ModalOverlay>,
       modalRoot
